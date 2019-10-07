@@ -1,37 +1,357 @@
-<!doctype html>
-<head>
-  <title>Page title</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
+<!DOCTYPE html>
+<html>
+<title>One Stop Student Services</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "open sans", sans-serif}
 
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("bruininks staircase.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
 <body>
 
-<h1>Page title goes here</h1>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide"><img src="blockM.jpg" width="32" height="25" alt="University of Minnesota M logo">University of Minnesota</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-pencil"></i> Academics</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> Finances</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Personal Information</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-cog"></i> How-to Guides</a>
+      <a href="#dates" class="w3-bar-item w3-button"><i class="fa fa-calendar"></i> Dates & Deadlines</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-phone"></i> Contact Us</a>
+    </div>
 
-<div id="contact">
-<h2>Contact info</h2>
-<ul>
-  <li><strong>Phone:</strong> 555-867-5309</li>
-  <li><strong>E-mail:</strong> example@example.org</li>
-  <li><strong>Website:</strong> http://www.example.org</li>
-</ul>
+
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
 </div>
 
-<h2>Section 1</h2>
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="#forms" onclick="w3_close()" class="w3-bar-item w3-button">forms</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar mi magna. Aliquam sodales felis odio, eget ultrices lorem rutrum vel. Proin eget lorem nec tellus auctor maximus ut non nunc. Vestibulum pharetra nec tortor tempus sodales. Cras nec nibh eros. Fusce quis ex at felis venenatis imperdiet ut non enim. Vestibulum quis elit eget dolor maximus blandit. Etiam ac ullamcorper est. Ut tempus nibh sit amet augue suscipit suscipit. Duis at venenatis purus, ac egestas tortor. Quisque pretium orci sit amet magna iaculis, vel varius ante tincidunt. Maecenas at velit nec sapien facilisis lacinia. Nulla non molestie est. Vestibulum ut mi lacus. Vestibulum at nisl feugiat, efficitur ex ac, ultrices metus. </p>
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <p><span class="w3-button w3-yellow w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">This is a student project. Not for official use. </a></p>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span>
+    <span class="w3-large">Welcome to<br></span>
+    <span class="w3-jumbo w3-hide-small">One Stop Student Services</span><br>
+    <p><span class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">One Stop provides student information regarding registration, records, financial aid, billing, payment, and veterans benefits.</a></p>
+  </div>
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <a href="https://www.facebook.com/umnonestop"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/UMNOneStop"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  </div>
+</header>
 
-<p> Vivamus cursus dolor urna. Integer rhoncus ac augue condimentum placerat. Vivamus sed tristique enim. Nulla pretium mattis justo vel ornare. Donec sit amet egestas massa. Suspendisse consectetur sapien ex, a interdum urna pretium vel. Ut quis feugiat ante. Donec porttitor enim quam, in faucibus lectus imperdiet vitae. Ut metus nunc, tincidunt nec metus sit amet, sodales luctus velit. Nullam sollicitudin non nisl ac mollis. Sed a nunc et tortor posuere sodales laoreet ut odio. Sed sit amet ex malesuada, fermentum risus eget, suscipit erat. Fusce interdum purus gravida dictum maximus. Nunc quis egestas risus. Fusce fermentum, sapien vitae iaculis iaculis, velit odio rhoncus lorem, in tempus velit nunc sit amet augue. Sed ut mi libero.</p>
+<!--important links section -->
 
-<h2>Section 2</h2>
+  <h3 class="w3-center"><b>Important Links</b></h3>
+  <p class="w3-center w3-large"></p>
+  <div class="w3-row-padding" style="margin-top:64px">
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at iaculis dolor. Nam vestibulum vehicula tincidunt. Vestibulum quis felis magna. Ut a nunc sit amet metus suscipit posuere a nec nibh. Cras ut vehicula nisi, at vulputate lacus. Aenean tristique leo id diam hendrerit, ut cursus turpis venenatis. Morbi auctor imperdiet congue. Donec ac sem ullamcorper, tempor lacus accumsan, sodales augue. Donec quis varius neque. Pellentesque non ornare urna. Vivamus lacinia ex odio, sit amet gravida tellus porta consequat. Vivamus fringilla, lorem sit amet aliquam dapibus, ipsum est sodales velit, vitae interdum nibh odio eget sem.</p>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Submitting payment from a 529 plan</li>
+        </li>
+      </ul>
+    </div>
 
-<p>Aliquam volutpat est ut arcu sagittis tristique. Mauris non porta risus. Praesent volutpat eu metus in placerat. Nullam justo urna, aliquet eu pulvinar id, porttitor eu turpis. Vestibulum interdum urna at turpis cursus bibendum. Aliquam vitae lectus magna. Quisque et posuere mauris. Vestibulum id luctus ipsum, sit amet placerat erat. Donec sodales iaculis ligula sit amet sollicitudin. Suspendisse placerat venenatis ex ac vestibulum. In vestibulum ipsum velit, id aliquet orci dictum non. Proin ullamcorper at lorem et consequat. Nam augue nisi, varius ac velit eu, suscipit lacinia diam. </p>
+    <div class="w3-third">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Apply for financial aid: 2019-20 FAFSA available now</li>
+        </li>
+        </li>
+      </ul>
+    </div>
 
-<h2>Section 3</h2>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Fall term fees</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<h3 class="w3-center"></h3>
+<p class="w3-center w3-large"></p>
+<div class="w3-row-padding" style="margin-top:64px">
 
-<p>Aenean elit odio, tempor sed elementum in, consequat vel mi. Vivamus non sagittis nulla. Vivamus sem massa, tempor vitae orci id, tempor imperdiet nisl. Suspendisse rutrum, arcu at lobortis consectetur, purus magna interdum massa, vel sodales massa libero sit amet augue. Morbi non condimentum ipsum. Praesent maximus lacus nec nulla vulputate, sed efficitur nisl suscipit. Suspendisse accumsan cursus magna, eget porttitor arcu varius eu.</p>
+  <div class="w3-third w3-section">
+    <ul class="w3-ul w3-white w3-hover-shadow">
+      <li class="w3-black w3-xlarge w3-padding-32">Set up a financial wellness appointment</li>
+      </li>
+    </ul>
+  </div>
+
+  <div class="w3-third">
+    <ul class="w3-ul w3-white w3-hover-shadow">
+      <li class="w3-black w3-xlarge w3-padding-32">Fall cancel/add deadlines</li>
+      </li>
+      </li>
+    </ul>
+  </div>
+
+  <div class="w3-third w3-section">
+    <ul class="w3-ul w3-white w3-hover-shadow">
+      <li class="w3-black w3-xlarge w3-padding-32">Class search resources</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+
+<!-- Academics Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center"><b>Academics</b></h3>
+  <p class="w3-center w3-large"></p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <p class="w3-large"><b>Classes</b></p>
+      <p>Class search resources</p>
+      <p>Take a class as non-degree/guest students </p>
+      <p>Senior Citizen Education Program</p>
+      <p>Registration times</p>
+      <p>Register for a class </p>
+    </div>
+    <div class="w3-quarter">
+      <p class="w3-large"><b>Academic planning</b></p>
+      <p>APAS</p>
+      <p>Advising</p>
+      <p>Graduation Planner</p>
+      <p>Education Requirements</p>
+      <p>Change your major, minor, or college</p>
+      <p>How to graduate in four years</p>
+    </div>
+    <div class="w3-quarter">
+      <p class="w3-large"><b>Graduation</b></p>
+      <p>Apply to graduate</p>
+      <p>Checklist for undergrads</p>
+      <p>Checklist for grad students</p>
+      <p>Your diploma</p>
+    </div>
+    <div class="w3-quarter">
+      <p class="w3-large"><b>Grades & Transcripts</b></p>
+      <p>Transcripts</p>
+      <p>Viewing grades</p>
+      <p>Grading policies</p>
+      <p>Verify your enrollment status</p>
+      <p>Apostille and notarization</p>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!-- Finances Section -->
+<div class="w3-container" style="padding:128px 16px" id="pricing">
+  <h3 class="w3-center"><b>Finances</b></h3>
+  <p class="w3-center w3-large"></p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <p class="w3-large">Estimating your costs</p>
+      <p>Cost of atttendance</p>
+      <p>Tuition</p>
+      <p>Fees</p>
+    </div>
+    <div class="w3-quarter">
+      <p class="w3-large">Types of financial aid</p>
+      <p>Scholarships</p>
+      <p>Grants & waivers</p>
+      <p>Loans</p>
+      <p>Fellowships & assistanships for graduate students</p>
+      <p>Work-study & student employment</p>
+      <p>How to graduate in four years</p>
+    </div>
+    <div class="w3-quarter">
+      <p class="w3-large">Receiving financial aid</p>
+      <p>Eligibility for financial aid</p>
+      <p>Apply for financial aid</p>
+      <p>Awarding timeline</p>
+      <p>Direct deposit</p>
+      <p>Revising your aid</p>
+      <p> Satisfactory Academic Progress (SAP)</p>
+    </div>
+    <div class="w3-quarter">
+      <p class="w3-large">Grades & Transcripts</p>
+      <p>Transcripts</p>
+      <p>Viewing grades</p>
+      <p>Grading policies</p>
+      <p>Verify your enrollment status</p>
+      <p>Apostille and notarization</p>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Personal information Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center"><b>Personal Information</b></h3>
+  <p class="w3-center w3-large"></p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <p class="w3-large"><b>Update your information</b></p>
+    </div>
+    <div class="w3-quarter">
+      <p class="w3-large"><b>Preferred name</b></p>
+    </div>
+    <div class="w3-quarter">
+      <p class="w3-large"><b>Parent/guest access</b></p>
+    </div>
+    <div class="w3-quarter">
+      <p class="w3-large"><b>Transcripts</b></p>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- How-to Guides Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center"><b>How-to Guides</b></h3>
+  <p class="w3-center w3-large"></p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <p class="w3-large"><b>Enrollment</b></p>
+      <p>View your registration time</p>
+      <p>Search for classes</p>
+      <p>Enroll in a class</p>
+      <p>Drop a class</p>
+      <p>Swap classes</p>
+    </div>
+    <div class="w3-quarter">
+      <p class="w3-large"><b>Finances</b></p>
+      <p>View your to-do list</p>
+      <p>View your financial aid awards</p>
+      <p>Set up direct deposit for your student account</p>
+      <p>Check your student account balance</p>
+      <p>Enroll in a payment plan</p>
+      <p>Make a payment on your student account</p>
+    </div>
+    <div class="w3-quarter">
+      <p class="w3-large"><b>My info</b></p>
+      <p>Change contact information</p>
+      <p>Set directory suppression</p>
+      <p>Set a preferred name or contact</p>
+      <p>Grant access to a parent/guest (for students)</p>
+    </div>
+    <div class="w3-quarter">
+      <p class="w3-large"><b>Academic records</b></p>
+      <p>View/print an unofficial transcript</p>
+      <p>View course history</p>
+      <p>View/print enrollment verification</p>
+      <p>View your APAS for your declared programs(s)</p>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container" style="padding:128px 16px" id="dates">
+  <h3 class="w3-center"><b>Dates & Deadlines</b></h3>
+  <p class="w3-center w3-large"></p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <img src="dates.jpg" class="w3-image" style="width:100%;margin-top:48px">
+    </div>
+    </div>
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">Contact Us</h3>
+  <p class="w3-center w3-large">Contact us by email, phone, or in person. 8:00 a.m. - 4:00 p.m., Monday-Friday<br>For Graduate Student Services and Progress (GSSP), visit the GSSP contact page.</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Bruininks Hall</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> 612-624-1111
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> 1-800-400-8636 (toll-free from outside the Twin Cities metropolitan area)
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> 612-626-0701 (TTY for hearing-impaired students only)</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> onestop@umn.edu Please include your student ID in your email.</p>
+
+    <!-- Image of location/map -->
+    <img src="bruininksmap.png" class="w3-image" style="width:30%;margin-top:48px">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/umnonestop"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</footer>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
 
 </body>
 </html>
