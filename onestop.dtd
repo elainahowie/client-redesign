@@ -1,0 +1,10 @@
+<!ELEMENT catalogue (course+)>
+<!ELEMENT course (article, topic, description, author, campus, user)>
+<!ATTLIST course subject (academics|finances|personal_information|how-toguides
+|dates_deadlines| ) #REQUIRED>
+<!ELEMENT article (#PCDATA)>
+<!ELEMENT topic (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT campus (#PCDATA)>
+<!ELEMENT user (#PCDATA)>

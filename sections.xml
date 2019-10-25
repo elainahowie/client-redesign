@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalogue SYSTEM "onestop.dtd">
+
+<catalogue>
+
+<!--Language-->
+  <article subject="academics">
+    <article>Class search resources</article>
+    <topic subject= classes>Classes</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="academics">
+    <article>Take a class as a non-degree/guest Student-all</article>
+    <topic subject= classes>Classes</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="academics">
+    <article>Senior Citizen Education Program</article>
+    <topic subject= classes>Classes</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="academics">
+    <article>Registration times</article>
+    <topic subject= classes>Classes</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="academics">
+    <article>Register for a class</article>
+    <topic subject= classes>Classes</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="academics">
+    <article>APAS</article>
+    <topic subject= financial planning>Financial Planning</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="academics">
+    <article>Advising</article>
+    <topic subject= financial planning>Financial Planning</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="academics">
+    <article>Graduation Planner</article>
+    <topic subject= financial planning>Financial Planning</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="academics">
+    <article>Education requirements</article>
+    <topic subject= financial planning>Financial Planning</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="academics">
+    <article>Change your major, minor, or college</article>
+    <topic subject= financial planning>Financial Planning</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student</user>
+  </article>
+
+  <article subject="academics">
+    <article>How to graduate in four years</article>
+    <topic subject= financial planning>Financial Planning</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student</user>
+  </article>
+
+</catalogue>
