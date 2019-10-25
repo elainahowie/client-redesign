@@ -1,7 +1,8 @@
 <!ELEMENT catalogue (course+)>
 <!ELEMENT course (article, topic, description, author, campus, user)>
-<!ATTLIST course subject (academics|finances|personal_information|how-toguides
+<!ATTLIST subject subject (academics|finances|personal_information|how-toguides
 |dates_deadlines| ) #REQUIRED>
+<!ATTLIST topic subject (classes|academicplanning|graduation|gradestranscripts|estimatingyourcosts|typesoffinancialaid|receivingfinancialaid|updateyourinformation|preferredname|parentguestaccess|transcripts|enrollment|finances|myinfo|academicrecords| ) #REQUIRED>
 <!ELEMENT article (#PCDATA)>
 <!ELEMENT topic (#PCDATA)>
 <!ELEMENT description (#PCDATA)>

@@ -6,7 +6,7 @@
 <!--Language-->
   <article subject="academics">
     <article>Class search resources</article>
-    <topic subject= classes>Classes</topic>
+    <topic subject= "classes">Classes</topic>
     <description>Fill in description here!</description>
     <author>Goldy Gopher</author>
     <campus>All</campus>
@@ -15,7 +15,7 @@
 
   <article subject="academics">
     <article>Take a class as a non-degree/guest Student-all</article>
-    <topic subject= classes>Classes</topic>
+    <topic subject= "classes">Classes</topic>
     <description>Fill in description here!</description>
     <author>Goldy Gopher</author>
     <campus>All</campus>
@@ -24,7 +24,7 @@
 
   <article subject="academics">
     <article>Senior Citizen Education Program</article>
-    <topic subject= classes>Classes</topic>
+    <topic subject= "classes">Classes</topic>
     <description>Fill in description here!</description>
     <author>Goldy Gopher</author>
     <campus>All</campus>
@@ -33,7 +33,7 @@
 
   <article subject="academics">
     <article>Registration times</article>
-    <topic subject= classes>Classes</topic>
+    <topic subject= "classes">Classes</topic>
     <description>Fill in description here!</description>
     <author>Goldy Gopher</author>
     <campus>All</campus>
@@ -42,7 +42,7 @@
 
   <article subject="academics">
     <article>Register for a class</article>
-    <topic subject= classes>Classes</topic>
+    <topic subject= "classes">Classes</topic>
     <description>Fill in description here!</description>
     <author>Goldy Gopher</author>
     <campus>All</campus>
@@ -51,7 +51,7 @@
 
   <article subject="academics">
     <article>APAS</article>
-    <topic subject= financial planning>Financial Planning</topic>
+    <topic subject= "Academic planning">Academic Planning</topic>
     <description>Fill in description here!</description>
     <author>Goldy Gopher</author>
     <campus>All</campus>
@@ -60,7 +60,7 @@
 
   <article subject="academics">
     <article>Advising</article>
-    <topic subject= financial planning>Financial Planning</topic>
+    <topic subject= "academic planning">Academic Planning</topic>
     <description>Fill in description here!</description>
     <author>Goldy Gopher</author>
     <campus>All</campus>
@@ -69,7 +69,7 @@
 
   <article subject="academics">
     <article>Graduation Planner</article>
-    <topic subject= financial planning>Financial Planning</topic>
+    <topic subject= "financial planning">Financial Planning</topic>
     <description>Fill in description here!</description>
     <author>Goldy Gopher</author>
     <campus>All</campus>
@@ -78,7 +78,7 @@
 
   <article subject="academics">
     <article>Education requirements</article>
-    <topic subject= financial planning>Financial Planning</topic>
+    <topic subject= academic planning>Academic Planning</topic>
     <description>Fill in description here!</description>
     <author>Goldy Gopher</author>
     <campus>All</campus>
@@ -87,7 +87,70 @@
 
   <article subject="academics">
     <article>Change your major, minor, or college</article>
-    <topic subject= financial planning>Financial Planning</topic>
+    <topic subject= academic planning>Academic Planning</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="academics">
+    <article>How to graduate in four years</article>
+    <topic subject= "academic planning">Academic Planning</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="academics">
+    <article>Apply to graduate</article>
+    <topic subject= "graduation">Graduation</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="academics">
+    <article>Checklist for undergrads</article>
+    <topic subject= "graduation">Graduation</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-undergrad</user>
+  </article>
+
+  <article subject="academics">
+    <article>Checklist for grad students</article>
+    <topic subject= "graduation">Graduation</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-grad student</user>
+  </article>
+
+  <article subject="academics">
+    <article>Transcripts</article>
+    <topic subject= "gradestranscripts">Grades and Transcripts</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="academics">
+    <article>Viewing grades</article>
+    <topic subject= "gradestranscripts">Grades and Transcripts</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="academics">
+    <article>Grading policies</article>
+    <topic subject= "gradestranscripts">Grades and Transcripts</topic>
     <description>Fill in description here!</description>
     <author>Goldy Gopher</author>
     <campus>All</campus>
@@ -95,12 +158,255 @@
   </article>
 
   <article subject="academics">
-    <article>How to graduate in four years</article>
-    <topic subject= financial planning>Financial Planning</topic>
+    <article>Verify your enrollment status</article>
+    <topic subject= "gradestranscripts">Grades and Transcripts</topic>
     <description>Fill in description here!</description>
     <author>Goldy Gopher</author>
     <campus>All</campus>
-    <user>Student</user>
+    <user>Student-all</user>
   </article>
+
+  <article subject="academics">
+    <article>Apostille and notarization</article>
+    <topic subject= "gradestranscripts">Grades and Transcripts</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="finances">
+    <article>Cost of attendance</article>
+    <topic subject= "estimatingyourcosts">Estimating your costs</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="finances">
+    <article>Tuition</article>
+    <topic subject= "estimatingyourcosts">Estimating your costs</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="finances">
+    <article>Fees</article>
+    <topic subject= "estimatingyourcosts">Estimating your costs</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="finances">
+    <article>Scholarships</article>
+    <topic subject= "typesoffinancialaid">Types of Financial Aid</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="finances">
+    <article>Grants and waivers</article>
+    <topic subject= "typesoffinancialaid">Types of Financial Aid</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="finances">
+    <article>Loans</article>
+    <topic subject= "typesoffinancialaid">Types of Financial Aid</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="finances">
+    <article>Fellowships and assistanships for graduate students</article>
+    <topic subject= "typesoffinancialaid">Types of Financial Aid</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-graduate</user>
+  </article>
+
+  <article subject="finances">
+    <article>Work-study and student employment</article>
+    <topic subject= "typesoffinancialaid">Types of Financial Aid</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="finances">
+    <article>How to graduate in four years</article>
+    <topic subject= "typesoffinancialaid">Types of Financial Aid</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="finances">
+    <article>Eligibility for financial aid</article>
+    <topic subject= "receivingfinancialaid">Receiving Financial Aid</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="finances">
+    <article>Apply for financial aid</article>
+    <topic subject= "receivingfinancialaid">Receiving Financial Aid</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="finances">
+    <article>Awarding timeline</article>
+    <topic subject= "receivingfinancialaid">Receiving Financial Aid</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="finances">
+    <article>transcripts</article>
+    <topic subject= "gradesandtranscripts">Grades and Transcripts</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="finances">
+    <article>Viewing grades</article>
+    <topic subject= "gradesandtranscripts">Grades and Transcripts</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="finances">
+    <article>Grading policies</article>
+    <topic subject= "gradesandtranscripts">Grades and Transcripts</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="finances">
+    <article>Verify your enrollment status</article>
+    <topic subject= "gradesandtranscripts">Grades and Transcripts</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="finances">
+    <article>Apostille and notarization</article>
+    <topic subject= "gradesandtranscripts">Grades and Transcripts</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="personal_information">
+    <article>Content</article>
+    <topic subject= "updateyourinformation">Update your information</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="personal_information">
+    <article>Content</article>
+    <topic subject= "preferredname">Preferred Name</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="personal_information">
+    <article>Content</article>
+    <topic subject= "Parent/guest access">Parent/Guest access</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="personal_information">
+    <article>Content</article>
+    <topic subject= "Transcripts">Transcripts</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="how-toguides">
+    <article>Content</article>
+    <topic subject= "enrollment">Enrollment</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="how-toguides">
+    <article>Content</article>
+    <topic subject= "Finances">Finances</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="how-toguides">
+    <article>Content</article>
+    <topic subject= "myinfo">My info</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+  <article subject="how-toguides">
+    <article>Content</article>
+    <topic subject= "academicrecords">Academic records</topic>
+    <description>Fill in description here!</description>
+    <author>Goldy Gopher</author>
+    <campus>All</campus>
+    <user>Student-all</user>
+  </article>
+
+
+
+
+
+
+
+
+
 
 </catalogue>
